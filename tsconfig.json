@@ -4,6 +4,11 @@
     "module": "commonjs",
     "outDir": "./dist",
     "rootDir": "./src",
+    "paths": {
+      "@controllers/*": [
+        "controllers/*"
+      ],
+    },
     "strict": true,
     "strictPropertyInitialization": false,
     "baseUrl": "./src",
